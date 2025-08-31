@@ -1,36 +1,29 @@
-@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
 
-/* Remove Tailwind directives if not using Tailwind's build process */
-/* @tailwind base; */
-/* @tailwind components; */
-/* @tailwind utilities; */
-
-/* Removed @tailwind directives to prevent unknown at-rule errors */
-
-:root {
-  --color-bg: #0B0B0C;
-  --color-accent: #C9A227;
-  --color-text: #FFFFFF;
-  --color-muted: #B3B6BD;
-  --color-border: #1A1B1E;
+html, body {
+  background-color: #000000;
+  color: #f5f5f5;
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+  padding: 0;
 }
 
-:root {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+h1, h2, h3, h4, h5 {
+  color: #d4af37;
+  font-weight: bold;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+button {
+  background-color: #d4af37;
+  color: #000000;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+button:hover {
+  background-color: #000000;
+  color: #d4af37;
+  border: 1px solid #d4af37;
 }
