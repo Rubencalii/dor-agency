@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    allowedDevOrigins: ['http://192.168.1.39:3000'], // tu IP local
-  },
+  // Puedes dejar otras opciones aquí si las tienes
 };
 
 module.exports = nextConfig;
