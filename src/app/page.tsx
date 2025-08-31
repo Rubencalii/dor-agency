@@ -98,6 +98,10 @@ export default function Home() {
           Go to nextjs.org →
         </a>
       </footer>
+      <div style={{ textAlign: "center", marginTop: "50px" }}>
+        <h1>¡Hola! Esta es mi página Next.js</h1>
+        <p>Esto se muestra localmente en http://localhost:3000</p>
+      </div>
     </div>
   );
 }
